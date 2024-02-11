@@ -1,5 +1,17 @@
-<styles>
-p{
+
+
+h1 {
+    font-size: px;
+}
+
+#p1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
     background-image: url("https://img.freepik.com/free-photo/grunge-paper-background_1048-10791.jpg");
 }
-</styles>
+
+#navbar {
+    list-style-type: none;
+    
+}
