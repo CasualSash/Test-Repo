@@ -1,17 +1,63 @@
 
 
-h1 {
-    font-size: px;
-}
+* {
+    box-sizing: border-box;
+  }
 
-#p1 {
-    width: 200px;
-    height: 200px;
-    background-color: black;
+body {
+    font-family: Verdana, sans-serif;
     background-image: url("https://img.freepik.com/free-photo/grunge-paper-background_1048-10791.jpg");
+    background-size: 100% 100%;
 }
 
-#navbar {
-    list-style-type: none;
-    
+h1 {
+    font-size: 140px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+#navbar{
+    width: 100vw;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(#b09253 #ad986c);
+  }
+  
+#navbar a {
+    width: 33%;
+    float: left;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, sans-serif;
+    text-shadow: 0px 0px 10px #911313;
+    border: 3px outset #b09253;
+    background-color: #b09253;
+}
+
+#navbar a:hover {
+    width: 33%;
+    float: left;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, sans-serif;
+    text-shadow: 0px 0px 10px #911313;
+    border: 3px inset #b09253;
+    background-image: linear-gradient(#b09253 #a38a54);
+    background-color: #ad986c;
+  }
+
+
+.bold {
+    font-weight: bold;
 }
