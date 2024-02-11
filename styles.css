@@ -36,7 +36,7 @@ body {
     font-family: Impact, sans-serif;
     text-shadow: 0px 0px 10px #911313;
     border: 3px outset #b09253;
-    /*background-color: #b09253;*/
+    background-color: #b09253;
 }
 
 #navbar a:hover {
@@ -51,7 +51,7 @@ body {
     text-shadow: 0px 0px 10px #911313;
     border: 3px inset #b09253;
     background-image: linear-gradient(#b09253 #a38a54);
-    /*background-color: #ad986c;*/
+    background-color: #ad986c;
   }
 
 h1 {
