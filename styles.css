@@ -26,9 +26,9 @@ body {
   }
   
 #navbar a {
-    width: 33%;
+    width: 16.66666%;
     float: left;
-    font-size: 35px;
+    font-size: 25px;
     padding: 25px;
     text-align: center;
     text-decoration: none;
@@ -40,9 +40,9 @@ body {
 }
 
 #navbar a:hover {
-    width: 33%;
+    width: 16.66666%;
     float: left;
-    font-size: 35px;
+    font-size: 25px;
     padding: 25px;
     text-align: center;
     text-decoration: none;
@@ -50,16 +50,16 @@ body {
     font-family: Impact, sans-serif;
     text-shadow: 0px 0px 10px #911313;
     border: 3px inset #b09253;
-    background-image: linear-gradient(#b09253 #a38a54);
-    background-color: #ad986c;
-  }
+    background-color: #836e40;
+}
 
 h1 {
     font-size: 140px;
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     border-bottom: 10px ridge #a38a54;
+    padding-bottom: 30px;
 }
 
 
