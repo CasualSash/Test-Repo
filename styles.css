@@ -41,25 +41,14 @@ body {
 }
 
 #navbar a:hover {
-    width: 16.66666%;
-    float: left;
-    font-size: 25px;
-    padding: 25px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-family: Impact, sans-serif;
-    text-shadow: 0px 0px 10px #911313;
     border: 3px inset #b09253;
     background-color: #836e40;
-    text-wrap: nowrap;
-    overflow: hidden;
 }
 
 .title {
     font-size: 140px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 125px;
     margin-bottom: 40px;
     border-bottom: 10px ridge #a38a54;
     padding-bottom: 30px;
@@ -74,8 +63,21 @@ body {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-bottom: 10px ridge #a38a54;
+    border-bottom: 5px ridge #a38a54;
     padding-bottom: 30px;
     color: #816a39;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 2px rgb(63, 63, 63);
+}
+
+.section {
+    background:rgba(172, 134, 53, 0.4);
+    margin: 0;
+    padding: 0; 
+    border: 3px solid #816a39;
+}
+
+.linebreak {
+    border-bottom: 5px ridge rgb(172, 134, 53, 0.4);
+    margin: 10px;
+    padding: 0;
 }
