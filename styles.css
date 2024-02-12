@@ -22,7 +22,6 @@ body {
     top: 0;
     left: 0;
     border-bottom: 2px solid black;
-    background-image: linear-gradient(#b09253 #b67e06);
   }
   
 #navbar a {
@@ -35,8 +34,10 @@ body {
     color: black;
     font-family: Impact, sans-serif;
     text-shadow: 0px 0px 10px #911313;
+    text-wrap: nowrap;
+    overflow: hidden;
     border: 3px outset #b09253;
-    background-color: #b09253;
+    background: linear-gradient(to top, #b09253 , rgba(172, 134, 53, 0.4));
 }
 
 #navbar a:hover {
@@ -51,15 +52,30 @@ body {
     text-shadow: 0px 0px 10px #911313;
     border: 3px inset #b09253;
     background-color: #836e40;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 
-h1 {
+.title {
     font-size: 140px;
     text-align: center;
     margin-top: 200px;
     margin-bottom: 40px;
     border-bottom: 10px ridge #a38a54;
     padding-bottom: 30px;
+    color: #816a39;
+    text-shadow: 2px 2px 10px black;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 
-
+#sub-title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 10px ridge #a38a54;
+    padding-bottom: 30px;
+    color: #816a39;
+    text-shadow: 2px 2px 5px black;
+}
